@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    position: absolute;
+    top: 13px;
+    color: #1877f2;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: o;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container {
+    position: relative;
+    top: 78px;
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(27, 25, 25);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.under{
+    text-align: center;
+    font-size: 20px;
+    color: #65676b;
+    margin-bottom: 20px;
+}
+
+.line{
+    opacity: 0.3;
+    border-top: 1px solid #222;
+    width: 100%;
+    margin: auto;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    width:100%;
+    padding: 14px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #dddfe2;
+    font-size: 14px;
+}
+
+.LB{
+    position: relative;
+    top:14PX;
+    font-size: 12px;
+}
+.LB2{
+    position: relative;
+    top: 7px;
+    font-size: 12px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-group input {
+    width: 48%;
+}
+
+button{
+    position: relative;
+    top: 17px;
+    width: 190px;
+    background-color: #42b72a;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 28%;
+}
+
+
+.birthday-group{
+    display: flex;
+    gap: 10px;
+}
+
+.birthday-group, .gender-group {
+    margin-top: 10px;
+}
+
+select, .gender-group input {
+    margin-right: 10px;
+}
+
+.gender-group div {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+p{
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+
+.terms {
+    font-size: 12px;
+    color: #65676b;
+    margin-top: 20px;
+}
+
+p a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.AC{
+    text-align: center;
+    font-size: 17px;
+    color: blue;
+    position: relative;
+    top: 15px;
+}
+@media(max-width: 500px){
+    .gender-group div{
+    margin-right: 40px;
+    }
+}
